@@ -1,33 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/global.css">
+    <title>Travel-site</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Hawaii</a></li>
-                <li><a href="">Iceland</a></li>
-                <li><a href="">Greece</a></li>
-            </ul>
-        </nav>
+    <header class="wrapper">
+        <div class="top-nav">
+            <h2>Travel Site</h2>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Hawaii</a></li>
+                    <li><a href="">Iceland</a></li>
+                    <li><a href="">Greece</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="hero-section">
-        <div class="hero-section hero-section__title">
-            <h1>Travelling Comes With Endless Discoveries</h1>
-            <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-            <a href=""><button>Get started</button></a>
+    <main class="wrapper">
+        <div class="hero-section">
+            <div class="hero-section hero-section__title">
+                <h1>Travelling Comes With Endless Discoveries</h1>
+                <p>
+                    Don't let your dreams be just dreams. Experience the world by
+                    booking a vacation with us now.
+                </p>
+                <a href="#" class="button">Get started</a>
+            </div>
+            <div class="hero-section hero__img">
+                <img src="./Assets/Images/hero.png" alt="Plane going around the globe" />
+            </div>
         </div>
-        <div class="hero-section hero__img">
-            <img src="./Assets/Images/hero.png" alt="Plane going around the globe">
+        <section class="recommendations">
+            <div class="recommendations recommendations__title">
+                <h2>Recommendations</h2>
+            </div>
+            <div class="recommendations recommendations__gallery">
+                <div class="recommendations recommendations__card">
+                    <a href="">
+                        <img src="./Assets/Images/hawaii.jpg" alt="hawaii image" /></a>
+                    <p>Hawaii</p>
+                </div>
+                <div class="recommendations recommendations__card">
+                    <a href=""><img src="./Assets/Images/iceland.jpg" alt="iceland image" /></a>
+                    <p>Iceland</p>
+                </div>
+                <div class="recommendations recommendations__card">
+                    <a href=""><img src="./Assets/Images/greece.jpg" alt="greece image" /></a>
+                    <p>Greece</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="wrapper">
+        <div>
+            <h2>Contact</h2>
+            <p>email</p>
+            <p>info@travelsite.com</p>
         </div>
-    </div>
-    
+        <div>
+            <h2>Hours</h2>
+            <div>
+                <p>monday - friday</p>
+                <p>9:00 AM - 5:00 PM</p>
+            </div>
+            <div>
+                <p>saturday</p>
+                <p>10:00 AM - 4:00 PM</p>
+            </div>
+            <div>
+                <p>Sunday</p>
+                <p>Closed</p>
+            </div>
+        </div>
+        <div>
+            <h2>Social</h2>
+            <img src="./Assets/Icons/icon-instagram.png" alt="instagram logo" />
+            <img src="./Assets/Icons/icon-facebook.png" alt="facebook logo" />
+            <img src="./Assets/Icons/icon-twitter.png" alt="twitter logo" />
+        </div>
+    </footer>
 </body>
+
 </html>
