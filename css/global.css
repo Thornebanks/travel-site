@@ -5,8 +5,12 @@ html {
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0;
 }
-.wrapper {
-    width: 1280px;
-    margin: 0 auto;
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #335576;
 }
