@@ -1,126 +1,54 @@
 * {
-    margin: 0%;
-    padding: 0;
+  margin: 0%;
+  padding: 0;
 }
-.top-nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #ffffff;
-    width: 100%;
-    color: #335576;
-    position: fixed;
-    align-items: baseline;
-    z-index: 20;
-    padding: 25px 0;
-  }
-  .top-nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-  }
-  .top-nav ul li:nth-child(2) a {
-    border-bottom: 4px solid #db7a4e;
-    padding-bottom: 10px;
-  }
-  nav li {
-    display: inline-block;
-    margin-right: 15px;
-  }
-  .itinerary__img {
-      /* background-image: url(../Assets/Images/hawaii.jpg); */
-      /* width: 100vw;
-      height: 60vh;
-      background-position: center;
-      background-size: cover; */
-      display: flex;
-      /* justify-content: center; 
-      align-items: center; */
-      position: absolute;
-      bottom: 20rem;
-      left: 16rem;
-  }
-  h1 {
-      position: absolute; 
-      color: #ffffff;
-      z-index: 10;
-      font-size: 7rem;
-      top: 34rem;
-      left: 10rem;
-  }
-  .itinerary img {
-    width: 1280px;
-    height: 1280px;
-  }
-  .itinerary__card {
-    width: 300px;
-    height: 400px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    background-color: #ffffff;
-    line-height: 3;
-    text-align: center;
-    padding: 0 10px;
-    margin-right: 40px;
-    margin-top: 65px;
-  }
-  .itinerary__img li {
-      list-style-type: none;
-      font-size: 2rem;
-      background-color: #FEFAF5;
-      border: 5px solid #fff;
-  }
-  .itinerary__img li a {
-      color: black;
-      text-decoration: none;
-  }
-  .itinerary__card ul li:first-child {
-      border-bottom: 2px solid black;
-      list-style-type: none;
-      background-color: #fff;
-  }
-  .itinerary__card ul li:nth-child(2) {
-      margin-top: 10px;
-  }
-  .footer {
-    display: flex;
-    background-color: #fefaf5;
-    justify-content: space-evenly;
-    padding: 50px 0;
-  }
-  .footer h2 {
-      margin: 24.9px 0;
-  }
-  .footer p {
-      margin: 11px 0;
-  }
-  /* I tried looking for the 24.9px and 11px margin, but couldnt find it. SO i added it here instead of making a bunch of divs and trying to fix it */
-  .footer p:last-child {
-    color: #335576;
-    font-size: 1.8rem;
-  }
-  .footer-subtitle {
-    color: #db7a4e;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-  }
-  .footer-hours {
-    display: flex;
-  }
-  .footer-timing__day {
-    padding-top: 72px;
-    padding-left: 30px;
-  }
-  
-  .footer-social img {
-    width: 20px;
-    justify-content: space-between;
-    padding-top: 30px;
-  }
-  .footer-social__img {
-    width: 8vw;
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-social img:nth-child(2) {
-    width: 11px;
-  }
+
+.itinerary__img {
+  display: flex;
+  position: absolute;
+  bottom: 20rem;
+  left: 16rem;
+}
+h1 {
+  position: absolute;
+  color: #ffffff;
+  z-index: 10;
+  font-size: 7rem;
+  top: 34rem;
+  left: 10rem;
+}
+.itinerary img {
+  width: 1280px;
+  height: 1280px;
+}
+.itinerary__card {
+  width: 300px;
+  height: 400px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  line-height: 3;
+  text-align: center;
+  padding: 0 10px;
+  margin-right: 40px;
+  margin-top: 65px;
+}
+.itinerary__img li {
+  list-style-type: none;
+  font-size: 2rem;
+  background-color: #fefaf5;
+  border: 5px solid #fff;
+}
+.itinerary__img li a {
+  color: black;
+  text-decoration: none;
+}
+.itinerary__card ul li:first-child {
+  border-bottom: 2px solid black;
+  list-style-type: none;
+  background-color: #fff;
+}
+.itinerary__card ul li:nth-child(2) {
+  margin-top: 10px;
+}
+

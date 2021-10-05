@@ -14,3 +14,66 @@ h2 {
     font-weight: bold;
     color: #335576;
 }
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 100%;
+    color: #335576;
+    position: fixed;
+    align-items: baseline;
+    z-index: 20;
+    padding: 25px 0;
+  }
+  .top-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .footer {
+    display: flex;
+    background-color: #fefaf5;
+    justify-content: space-evenly;
+    padding: 50px 0;
+  }
+  .footer h2 {
+    margin: 24.9px 0;
+  }
+  .footer p {
+    margin: 11px 0;
+  }
+  /* I tried looking for the 24.9px and 11px margin, but couldnt find it. SO i added it here instead of making a bunch of divs and trying to fix it */
+  .footer p:last-child {
+    color: #335576;
+    font-size: 1.8rem;
+  }
+  .footer-subtitle {
+    color: #db7a4e;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+  }
+  .footer-hours {
+    display: flex;
+  }
+  .footer-timing__day {
+    padding-top: 72px;
+    padding-left: 30px;
+  }
+  
+  .footer-social img {
+    width: 20px;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .footer-social__img {
+    width: 8vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-social img:nth-child(2) {
+    width: 11px;
+  }
