@@ -27,24 +27,29 @@
     margin-right: 15px;
   }
   .itinerary__img {
-      background-image: url(../Assets/Images/hawaii.jpg);
-      width: 100vw;
+      /* background-image: url(../Assets/Images/hawaii.jpg); */
+      /* width: 100vw;
       height: 60vh;
       background-position: center;
-      background-size: cover;
+      background-size: cover; */
       display: flex;
-      justify-content: center; 
-      align-items: center;
-      position: relative;
-
+      /* justify-content: center; 
+      align-items: center; */
+      position: absolute;
+      bottom: 20rem;
+      left: 16rem;
   }
   h1 {
       position: absolute; 
       color: #ffffff;
       z-index: 10;
       font-size: 7rem;
-      top: 45px;
-      left: 50px;
+      top: 34rem;
+      left: 10rem;
+  }
+  .itinerary img {
+    width: 1280px;
+    height: 1280px;
   }
   .itinerary__card {
     width: 300px;
